@@ -10,24 +10,24 @@ const Home = () => {
 
     const heroSlides = [
         {
-            image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&q=80',
-            title: 'Sell Your Used Products',
-            subtitle: 'Get the best prices for your used or unnecessary products at your doorstep',
+            image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1920&q=80',
+            title: 'Donate & Make a Difference',
+            subtitle: 'Donate or support an orphanage or NGO instead of throwing things away—let\'s help people out!',
         },
         {
-            image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1920&q=80',
-            title: 'Used Vehicles Buy & Sell',
-            subtitle: 'Cars, bikes, two-wheelers & vehicle accessories',
+            image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1920&q=80',
+            title: 'Buy Second Hand Products',
+            subtitle: 'You can buy second hand products for all your reuse needs. Call or come visit us at the Reuse Hub!',
         },
         {
-            image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80',
-            title: 'IT Assets & Network Equipment',
-            subtitle: 'Routers, Switches, Servers, CCTVs & IP Phones',
+            image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1920&q=80',
+            title: 'Support Orphanages & NGOs',
+            subtitle: 'Donate or support an orphanage or NGO instead of throwing things away—let\'s help people out!',
         },
         {
-            image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&q=80',
-            title: 'Electrical Items & Machinery',
-            subtitle: 'Generators, UPS, Motors, Batteries & Industrial Equipment',
+            image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1920&q=80',
+            title: 'Sustainable Recycling',
+            subtitle: 'We are committed to promoting sustainable recycling practices through awareness, collection, and reuse initiatives. Our goal is to minimize waste, maximize resource recovery, and build an eco-conscious community',
         },
     ];
 
