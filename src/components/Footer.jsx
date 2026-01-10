@@ -12,10 +12,12 @@ const Footer = () => {
     ];
 
     const services = [
-        'Used Furniture',
+        'Used Vehicles',
+        'Electrical Items',
+        'IT Assets',
         'Electronics & Appliances',
-        'Office Equipment',
-        'Household Items',
+        'Scrap & Metals',
+        'Office & Commercial',
         'Charity Donations',
     ];
 
@@ -26,6 +28,7 @@ const Footer = () => {
         'Hitech City',
         'Kondapur',
         'Kukatpally',
+        'Gachibowli',
     ];
 
     return (
@@ -42,9 +45,23 @@ const Footer = () => {
                                 className="h-14 bg-white rounded-lg p-1"
                             />
                         </Link>
-                        <p className="text-gray-400 mb-6 leading-relaxed">
-                            Hyderabad's premier doorstep pickup service for used furniture, electronics, and household items. Sell, Buy, Donate or Recycle with us!
+                        <p className="text-gray-400 mb-4 leading-relaxed">
+                            Sell your used or unnecessary products at your doorstep. We deal in vehicles, IT assets, electrical items, scrap, and more.
                         </p>
+                        <p className="text-primary-400 font-medium mb-6">
+                            🌐 www.reuse-hub.org
+                        </p>
+                        <div className="bg-gray-800 rounded-xl p-4 mb-6">
+                            <p className="text-rose-400 font-medium flex items-center">
+                                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+                                </svg>
+                                Donate to Help!
+                            </p>
+                            <p className="text-gray-400 text-sm mt-2">
+                                Support orphanages & NGOs instead of throwing things away!
+                            </p>
+                        </div>
                         {/* Social Links */}
                         <div className="flex space-x-4">
                             <a
@@ -133,7 +150,13 @@ const Footer = () => {
                                 <svg className="w-5 h-5 mr-3 text-primary-500 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
-                                <span className="text-gray-400">contact@reusehub.in</span>
+                                <span className="text-gray-400">contact@reuse-hub.org</span>
+                            </li>
+                            <li className="flex items-start">
+                                <svg className="w-5 h-5 mr-3 text-primary-500 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                </svg>
+                                <span className="text-gray-400">www.reuse-hub.org</span>
                             </li>
                             <li className="flex items-start">
                                 <svg className="w-5 h-5 mr-3 text-primary-500 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

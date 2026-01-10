@@ -37,15 +37,54 @@ const About = () => {
                 </svg>
             ),
             title: 'Community Impact',
-            description: 'Through donations and charitable initiatives, we help those in need.',
+            description: 'Through donations to orphanages and NGOs, we help those in need.',
         },
     ];
 
     const stats = [
         { number: '5000+', label: 'Happy Customers' },
         { number: '10000+', label: 'Items Recycled' },
-        { number: '100+', label: 'Tons Recycled' },
+        { number: '500+', label: 'Items Donated' },
         { number: '50+', label: 'Areas Covered' },
+    ];
+
+    const whatWeDo = [
+        {
+            icon: (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+            ),
+            title: 'Used Vehicles',
+            description: 'Cars, bikes, two-wheelers',
+        },
+        {
+            icon: (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+            ),
+            title: 'Electrical Items',
+            description: 'Generators, UPS, motors, batteries',
+        },
+        {
+            icon: (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                </svg>
+            ),
+            title: 'IT Assets',
+            description: 'Routers, switches, servers, CCTVs',
+        },
+        {
+            icon: (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+            ),
+            title: 'Scrap & Metals',
+            description: 'Ferrous, non-ferrous, e-waste',
+        },
     ];
 
     return (
@@ -65,8 +104,8 @@ const About = () => {
                             Welcome to ReUse-Hub
                         </h1>
                         <p className="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed">
-                            Hyderabad's premier doorstep service for buying, selling, donating, and recycling
-                            used furniture, electronics, and household items.
+                            Sell your used or unnecessary products at your doorstep. We deal in
+                            vehicles, IT assets, electrical items, scrap metals, and more.
                         </p>
                     </div>
                 </div>
@@ -87,7 +126,7 @@ const About = () => {
                                 <p>
                                     ReUse-Hub was founded with a simple mission: to make recycling as convenient
                                     and rewarding as possible for everyone in Hyderabad. We understand that
-                                    disposing of old furniture, electronics, and household items can be a hassle.
+                                    disposing of old vehicles, IT equipment, and electrical items can be a hassle.
                                 </p>
                                 <p>
                                     That's why we bring our service to your doorstep. With just a call or
@@ -128,8 +167,29 @@ const About = () => {
                 </div>
             </section>
 
-            {/* Stats Section */}
+            {/* What We Deal In */}
             <section className="py-16 bg-gray-50">
+                <div className="container-custom">
+                    <div className="text-center mb-12">
+                        <h2 className="section-title">What We Deal In</h2>
+                        <p className="section-subtitle">A wide range of used items we buy, sell, and recycle</p>
+                    </div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        {whatWeDo.map((item, index) => (
+                            <div key={index} className="bg-white rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
+                                <div className="w-14 h-14 rounded-xl bg-primary-100 flex items-center justify-center text-primary-600 mx-auto mb-4">
+                                    {item.icon}
+                                </div>
+                                <h3 className="font-semibold text-gray-900 mb-1">{item.title}</h3>
+                                <p className="text-gray-500 text-sm">{item.description}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Stats Section */}
+            <section className="py-16">
                 <div className="container-custom">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                         {stats.map((stat, index) => (
@@ -140,6 +200,50 @@ const About = () => {
                                 <p className="text-gray-600 font-medium">{stat.label}</p>
                             </div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Donation Impact Section */}
+            <section className="py-20 bg-gradient-to-br from-rose-50 to-orange-50">
+                <div className="container-custom">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                        <div className="relative">
+                            <div className="aspect-[4/3] rounded-3xl overflow-hidden">
+                                <img
+                                    src="https://images.unsplash.com/photo-1593113630400-ea4288922497?w=800&q=80"
+                                    alt="Charity and donation"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <span className="inline-block px-4 py-2 bg-rose-100 text-rose-700 rounded-full text-sm font-medium mb-4">
+                                ❤️ Making a Difference
+                            </span>
+                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                                Donate to Support <span className="text-rose-600">Orphanages & NGOs</span>
+                            </h2>
+                            <p className="text-gray-600 text-lg mb-6 leading-relaxed">
+                                At ReUse-Hub, we believe in giving back to the community. Instead of throwing away
+                                your old items, you can choose to donate them to orphanages and NGOs who need them most.
+                            </p>
+                            <p className="text-gray-600 mb-8 leading-relaxed">
+                                Your old furniture can become a child's study desk. Your unused electronics can help
+                                an NGO run their operations. Every donation creates a ripple effect of positive change.
+                            </p>
+                            <a
+                                href="https://wa.me/919133933133?text=Hi! I would like to donate some items to help orphanages/NGOs."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center px-8 py-4 bg-rose-600 text-white font-semibold rounded-xl shadow-lg hover:bg-rose-700 hover:-translate-y-1 transition-all duration-300"
+                            >
+                                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+                                </svg>
+                                Donate Items Now
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -157,8 +261,8 @@ const About = () => {
                             <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
                             <p className="text-white/90 leading-relaxed">
                                 To provide Hyderabad with the most convenient, rewarding, and eco-friendly
-                                way to sell, buy, recycle, and donate pre-owned items. We aim to make
-                                recycling accessible to everyone while ensuring fair value for their items.
+                                way to sell, buy, recycle, and donate pre-owned vehicles, IT assets, electrical
+                                items, and more. We aim to make recycling accessible to everyone while ensuring fair value.
                             </p>
                         </div>
                         <div className="bg-gradient-to-br from-accent/80 to-primary-500 rounded-3xl p-10 text-white">

@@ -4,18 +4,39 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     const mainServices = [
         {
-            title: 'Used Furniture',
-            description: 'Buy or sell pre-owned furniture including beds, sofas, dining tables, wardrobes, TV units, and more. We handle pickup and delivery for homes, offices, and commercial spaces.',
-            image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80',
-            items: ['Beds & Mattresses', 'Sofa Sets', 'Dining Tables', 'Wardrobes', 'TV Units', 'Office Desks'],
-            color: 'from-emerald-500 to-green-600',
+            title: 'Used Vehicles',
+            description: 'Buy or sell pre-owned vehicles including cars, bikes, two-wheelers, and more. We offer fair prices and hassle-free transactions with doorstep service.',
+            image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80',
+            items: ['Cars', 'Bikes', 'Two-Wheelers', 'Scooters', 'Auto Parts', 'Vehicle Accessories'],
+            color: 'from-teal-500 to-emerald-600',
+        },
+        {
+            title: 'Used Electrical Items',
+            description: 'Sell your old electrical equipment for the best prices. We buy generators, UPS systems, motors, industrial machinery, batteries, and all types of electrical items.',
+            image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80',
+            items: ['Generators', 'UPS Systems', 'Motors', 'Industrial Machinery', 'Batteries', 'Pharma Machinery'],
+            color: 'from-amber-500 to-orange-600',
+        },
+        {
+            title: 'Used IT Assets',
+            description: 'Complete IT asset disposal and recycling solutions. We buy routers, switches, CCTVs, servers, IP phones, and all networking equipment at competitive prices.',
+            image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80',
+            items: ['Routers', 'Switches', 'CCTVs', 'Servers', 'IP Phones', 'Network Equipment'],
+            color: 'from-cyan-500 to-blue-600',
         },
         {
             title: 'Electronics & Appliances',
             description: 'Sell your old electronics for the best prices. We buy laptops, desktops, printers, ACs, refrigerators, washing machines, and all types of electronic appliances.',
             image: 'https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800&q=80',
             items: ['Laptops & Computers', 'Air Conditioners', 'Refrigerators', 'Washing Machines', 'TVs & Monitors', 'Printers'],
-            color: 'from-blue-500 to-cyan-600',
+            color: 'from-blue-500 to-indigo-600',
+        },
+        {
+            title: 'Scrap & Metals',
+            description: 'We buy all types of ferrous and non-ferrous metals, industrial scrap, and recyclable materials at the best market rates with accurate weighing.',
+            image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&q=80',
+            items: ['Ferrous Metals', 'Non-Ferrous Metals', 'Industrial Scrap', 'Copper & Aluminum', 'Steel & Iron', 'E-Waste'],
+            color: 'from-gray-600 to-gray-800',
         },
         {
             title: 'Office & Commercial',
@@ -29,7 +50,7 @@ const Services = () => {
             description: 'From kitchen appliances to home decor, we buy all kinds of household items. Get paid for items you no longer need instead of throwing them away.',
             image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80',
             items: ['Kitchen Appliances', 'Home Decor', 'Kitchenware', 'Storage Items', 'Garden Furniture', 'Exercise Equipment'],
-            color: 'from-orange-500 to-amber-600',
+            color: 'from-rose-500 to-pink-600',
         },
     ];
 
@@ -41,7 +62,7 @@ const Services = () => {
                 </svg>
             ),
             title: 'Charity Donations',
-            description: 'Donate your items to help those in need. We connect your donations with NGOs and charitable organizations.',
+            description: 'Donate your items to help orphanages and NGOs. We connect your donations with charitable organizations that need them most.',
         },
         {
             icon: (
@@ -50,7 +71,7 @@ const Services = () => {
                 </svg>
             ),
             title: 'Recycling Services',
-            description: 'Responsible recycling of all materials. We ensure eco-friendly disposal and maximize material recovery.',
+            description: 'Responsible recycling of all materials. We ensure eco-friendly disposal and maximize material recovery for a greener planet.',
         },
         {
             icon: (
@@ -59,7 +80,16 @@ const Services = () => {
                 </svg>
             ),
             title: 'Bulk Clearance',
-            description: 'Complete clearing for office relocations, factory closures, or estate clearances. Quick and efficient service.',
+            description: 'Complete clearing for office relocations, factory closures, or estate clearances. Quick and efficient service with best prices.',
+        },
+        {
+            icon: (
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+            ),
+            title: 'Exchange Services',
+            description: 'Exchange your old items for new ones or trade-in for better value. Upgrade without the hassle of selling separately.',
         },
     ];
 
@@ -67,6 +97,7 @@ const Services = () => {
         'Hyderabad', 'Secunderabad', 'Madhapur', 'Hitech City', 'Kondapur',
         'Kukatpally', 'Gachibowli', 'Jubilee Hills', 'Banjara Hills', 'Ameerpet',
         'SR Nagar', 'Begumpet', 'Somajiguda', 'Punjagutta', 'Mehdipatnam',
+        'LB Nagar', 'Dilsukhnagar', 'Uppal', 'ECIL', 'Miyapur',
     ];
 
     return (
@@ -86,8 +117,8 @@ const Services = () => {
                             What We Buy & Sell
                         </h1>
                         <p className="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed">
-                            From furniture to electronics, we handle everything.
-                            Get fair prices with convenient doorstep pickup across Hyderabad.
+                            Sell your used or unnecessary products at your doorstep.
+                            Get fair prices with convenient pickup across Hyderabad.
                         </p>
                     </div>
                 </div>
@@ -96,6 +127,15 @@ const Services = () => {
             {/* Main Services */}
             <section className="py-20">
                 <div className="container-custom">
+                    <div className="text-center mb-16">
+                        <span className="inline-block px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium mb-4">
+                            Categories
+                        </span>
+                        <h2 className="section-title">Our Service Categories</h2>
+                        <p className="section-subtitle">
+                            We deal in a wide range of used items — from vehicles to electronics and everything in between
+                        </p>
+                    </div>
                     <div className="space-y-16">
                         {mainServices.map((service, index) => (
                             <div
@@ -166,7 +206,7 @@ const Services = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {specialServices.map((service, index) => (
                             <div key={index} className="service-card text-center">
                                 <div className="w-16 h-16 rounded-2xl bg-primary-100 flex items-center justify-center text-primary-600 mx-auto mb-5">

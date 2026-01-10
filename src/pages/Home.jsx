@@ -1,24 +1,33 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SupportersCarousel from '../components/SupportersCarousel';
+import CommunitySection from '../components/CommunitySection';
+import NewsletterSection from '../components/NewsletterSection';
+import DonationSection from '../components/DonationSection';
 
 const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const heroSlides = [
         {
-            image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1920&q=80',
-            title: 'Sell Your Used Furniture',
-            subtitle: 'Get the best prices for your pre-owned furniture at your doorstep',
+            image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&q=80',
+            title: 'Sell Your Used Products',
+            subtitle: 'Get the best prices for your used or unnecessary products at your doorstep',
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1920&q=80',
+            title: 'Used Vehicles Buy & Sell',
+            subtitle: 'Cars, bikes, two-wheelers & vehicle accessories',
         },
         {
             image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80',
-            title: 'Buy Quality Second-Hand Items',
-            subtitle: 'Discover amazing deals on furniture, electronics & more',
+            title: 'IT Assets & Network Equipment',
+            subtitle: 'Routers, Switches, Servers, CCTVs & IP Phones',
         },
         {
-            image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1920&q=80',
-            title: 'Recycle & Make a Difference',
-            subtitle: 'Contribute to a sustainable future by recycling responsibly',
+            image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&q=80',
+            title: 'Electrical Items & Machinery',
+            subtitle: 'Generators, UPS, Motors, Batteries & Industrial Equipment',
         },
     ];
 
@@ -33,12 +42,42 @@ const Home = () => {
         {
             icon: (
                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                 </svg>
             ),
-            title: 'Used Furniture',
-            description: 'Beds, sofas, tables, chairs, workstations, dining sets & more',
-            color: 'from-emerald-500 to-green-600',
+            title: 'Used Vehicles',
+            description: 'Cars, bikes, two-wheelers & vehicle accessories',
+            color: 'from-teal-500 to-emerald-600',
+        },
+        {
+            icon: (
+                <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+            ),
+            title: 'Electrical Items',
+            description: 'Generators, UPS, motors, batteries & industrial machinery',
+            color: 'from-amber-500 to-orange-600',
+        },
+        {
+            icon: (
+                <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                </svg>
+            ),
+            title: 'IT Assets',
+            description: 'Routers, switches, CCTVs, servers & IP phones',
+            color: 'from-cyan-500 to-blue-600',
+        },
+        {
+            icon: (
+                <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+            ),
+            title: 'Scrap & Metals',
+            description: 'Ferrous, non-ferrous, industrial scrap & e-waste',
+            color: 'from-gray-600 to-gray-800',
         },
         {
             icon: (
@@ -47,18 +86,8 @@ const Home = () => {
                 </svg>
             ),
             title: 'Electronics',
-            description: 'Laptops, ACs, TVs, printers & all electronic appliances',
-            color: 'from-blue-500 to-cyan-600',
-        },
-        {
-            icon: (
-                <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
-            ),
-            title: 'Office Equipment',
-            description: 'Workstations, office chairs, desks & commercial furniture',
-            color: 'from-purple-500 to-indigo-600',
+            description: 'Laptops, ACs, TVs, printers & all appliances',
+            color: 'from-blue-500 to-indigo-600',
         },
         {
             icon: (
@@ -67,7 +96,7 @@ const Home = () => {
                 </svg>
             ),
             title: 'Charity & Donate',
-            description: 'Donate your items to help those in need',
+            description: 'Donate items to help orphanages & NGOs',
             color: 'from-rose-500 to-pink-600',
         },
     ];
@@ -244,11 +273,11 @@ const Home = () => {
                         </span>
                         <h2 className="section-title">What We Buy & Sell</h2>
                         <p className="section-subtitle">
-                            From furniture to electronics, we handle it all with doorstep convenience
+                            From vehicles to IT assets, furniture to electronics — we handle it all
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {services.map((service, index) => (
                             <div
                                 key={index}
@@ -318,6 +347,9 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* Donation Section */}
+            <DonationSection />
+
             {/* Why Choose Us Section */}
             <section className="py-20 bg-gradient-to-br from-primary-600 to-primary-800">
                 <div className="container-custom">
@@ -353,6 +385,15 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Community Section */}
+            <CommunitySection />
+
+            {/* Supporters Carousel */}
+            <SupportersCarousel />
+
+            {/* Newsletter Section */}
+            <NewsletterSection />
 
             {/* CTA Section */}
             <section className="py-20">
