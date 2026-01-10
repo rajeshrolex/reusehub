@@ -10,19 +10,19 @@ const Home = () => {
 
     const heroSlides = [
         {
-            image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1920&q=80',
-            title: 'Donate & Make a Difference',
-            subtitle: 'Donate or support an orphanage or NGO instead of throwing things away—let\'s help people out!',
+            image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1920&q=80',
+            title: 'Sell Your Used Items',
+            subtitle: 'You can sell your used and unused items from your doorstep at competitive prices with immediate pricing.',
         },
         {
-            image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1920&q=80',
+            image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80',
             title: 'Buy Second Hand Products',
             subtitle: 'You can buy second hand products for all your reuse needs. Call or come visit us at the Reuse Hub!',
         },
         {
-            image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1920&q=80',
+            image: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=1920&q=80',
             title: 'Support Orphanages & NGOs',
-            subtitle: 'Donate or support an orphanage or NGO instead of throwing things away—let\'s help people out!',
+            subtitle: 'Donate items to support orphanages and NGOs instead of throwing things away—make a positive impact!',
         },
         {
             image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1920&q=80',
