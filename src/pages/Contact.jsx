@@ -69,10 +69,11 @@ const Contact = () => {
     ];
 
     const scrapTypes = [
+        'Used Vehicles',
         'Used Furniture',
         'Electronics & Appliances',
         'Office Equipment',
-        'Household Items',
+        'Factory Outlet',
         'Multiple Items',
         'Other',
     ];

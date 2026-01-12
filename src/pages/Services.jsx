@@ -5,9 +5,9 @@ const Services = () => {
     const mainServices = [
         {
             title: 'Used Vehicles',
-            description: 'Buy or sell pre-owned vehicles including cars, bikes, two-wheelers, and more. We offer fair prices and hassle-free transactions with doorstep service.',
+            description: 'Buy or sell pre-owned vehicles including cars, bikes, buses, autos, trucks, and more. We offer fair prices and hassle-free transactions with doorstep service for all types of vehicles including scrap vehicles.',
             image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80',
-            items: ['Cars', 'Bikes', 'Two-Wheelers', 'Scooters', 'Auto Parts', 'Vehicle Accessories'],
+            items: ['Cars', 'Bikes', 'Buses', 'Autos', 'Trucks', 'Scrap Vehicles'],
             color: 'from-teal-500 to-emerald-600',
         },
         {
@@ -46,10 +46,17 @@ const Services = () => {
             color: 'from-purple-500 to-indigo-600',
         },
         {
-            title: 'Household Items',
-            description: 'From kitchen appliances to home decor, we buy all kinds of household items. Get paid for items you no longer need instead of throwing them away.',
-            image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80',
-            items: ['Kitchen Appliances', 'Home Decor', 'Kitchenware', 'Storage Items', 'Garden Furniture', 'Exercise Equipment'],
+            title: 'Furniture',
+            description: 'We buy used furniture from residents, offices, hostels, malls, and other establishments. Get the best prices for your unwanted furniture with our doorstep pickup service.',
+            image: 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80',
+            items: ['Sofas & Couches', 'Dining Tables', 'Bedroom Sets', 'Wardrobes', 'Study Tables', 'Chairs & Stools'],
+            color: 'from-amber-600 to-orange-700',
+        },
+        {
+            title: 'Factory Outlet',
+            description: 'Clear out your factory inventory with our specialized services. We buy surplus goods, manufacturing equipment, and industrial supplies.',
+            image: 'https://images.unsplash.com/photo-1560072810-1cffb09fafa0?w=800&q=80',
+            items: ['Manufacturing Equipment', 'Surplus Goods', 'Industrial Supplies', 'Tools & Machinery', 'Warehouse Inventory', 'Production Materials'],
             color: 'from-rose-500 to-pink-600',
         },
     ];

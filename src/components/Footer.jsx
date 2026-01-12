@@ -18,6 +18,7 @@ const Footer = () => {
         'Electronics & Appliances',
         'Scrap & Metals',
         'Office & Commercial',
+        'Furniture',
         'Charity Donations',
     ];
 

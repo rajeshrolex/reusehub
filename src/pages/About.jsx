@@ -56,7 +56,7 @@ const About = () => {
                 </svg>
             ),
             title: 'Used Vehicles',
-            description: 'Cars, bikes, two-wheelers',
+            description: 'Cars, bikes, buses, autos, trucks & all types of vehicles including scrap vehicles',
         },
         {
             icon: (

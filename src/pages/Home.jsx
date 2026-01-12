@@ -46,7 +46,7 @@ const Home = () => {
                 </svg>
             ),
             title: 'Used Vehicles',
-            description: 'Cars, bikes, two-wheelers & vehicle accessories',
+            description: 'Cars, bikes, buses, autos, trucks & all types of vehicles including scrap vehicles',
             color: 'from-teal-500 to-emerald-600',
         },
         {
@@ -88,6 +88,16 @@ const Home = () => {
             title: 'Electronics',
             description: 'Laptops, ACs, TVs, printers & all appliances',
             color: 'from-blue-500 to-indigo-600',
+        },
+        {
+            icon: (
+                <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7v10M4 7v10M4 7l2-2m0 0l2 2M6 5l-2 2m8-2v10M8 7v10M12 7v10M16 7v10" />
+                </svg>
+            ),
+            title: 'Furniture',
+            description: 'We buy used furniture from residents, offices, hostels, malls, etc.',
+            color: 'from-amber-600 to-orange-700',
         },
         {
             icon: (
