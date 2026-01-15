@@ -46,7 +46,7 @@ const Home = () => {
                 </svg>
             ),
             title: 'Used Vehicles',
-            description: 'Cars, bikes, buses, autos, trucks & all types of vehicles including scrap vehicles',
+            description: 'We buy used and scrap vehicles - cars, bikes, scooty, bus, trucks, auto\'s etc',
             color: 'from-teal-500 to-emerald-600',
         },
         {
@@ -234,7 +234,7 @@ const Home = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                                 <a
-                                    href="https://wa.me/919133933133"
+                                    href="https://wa.me/918790921442"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center px-8 py-4 bg-white text-primary-700 font-semibold rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
@@ -245,7 +245,7 @@ const Home = () => {
                                     Book Pickup
                                 </a>
                                 <a
-                                    href="tel:+919133933133"
+                                    href="tel:+918790921442"
                                     className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white/10 transition-all duration-300"
                                 >
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -283,7 +283,7 @@ const Home = () => {
                         </span>
                         <h2 className="section-title">What We Buy & Sell</h2>
                         <p className="section-subtitle">
-                            From vehicles to IT assets, furniture to electronics — we handle it all
+                            From vehicles to IT assets, factory outlet and petande — we handle it all
                         </p>
                     </div>
 
@@ -418,7 +418,7 @@ const Home = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <a
-                                href="https://wa.me/919133933133"
+                                href="https://wa.me/918790921442"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn-primary"

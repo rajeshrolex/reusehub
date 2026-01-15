@@ -10,7 +10,7 @@ const NewsletterSection = () => {
         // In production, this would connect to an email service
         setIsSubmitted(true);
         setTimeout(() => {
-            window.open(`https://wa.me/919133933133?text=Hi! I would like to subscribe to Reuse News. My email is: ${email}`, '_blank');
+            window.open(`https://wa.me/918790921442?text=Hi! I would like to subscribe to Reuse News. My email is: ${email}`, '_blank');
         }, 500);
     };
 

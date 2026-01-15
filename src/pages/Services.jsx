@@ -5,9 +5,9 @@ const Services = () => {
     const mainServices = [
         {
             title: 'Used Vehicles',
-            description: 'Buy or sell pre-owned vehicles including cars, bikes, buses, autos, trucks, and more. We offer fair prices and hassle-free transactions with doorstep service for all types of vehicles including scrap vehicles.',
+            description: 'We buy used and scrap vehicles - cars, bikes, scooty, bus, trucks, auto\'s etc. We offer fair prices and hassle-free transactions with doorstep service for all types of vehicles.',
             image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80',
-            items: ['Cars', 'Bikes', 'Buses', 'Autos', 'Trucks', 'Scrap Vehicles'],
+            items: ['Cars', 'Bikes', 'Scooty', 'Bus', 'Trucks', 'Auto\'s'],
             color: 'from-teal-500 to-emerald-600',
         },
         {
@@ -183,7 +183,7 @@ const Services = () => {
                                         ))}
                                     </div>
                                     <a
-                                        href="https://wa.me/919133933133"
+                                        href="https://wa.me/918790921442"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="btn-primary"
@@ -273,7 +273,7 @@ const Services = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <a
-                            href="https://wa.me/919133933133"
+                            href="https://wa.me/918790921442"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center px-8 py-4 bg-white text-primary-700 font-semibold rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
@@ -284,7 +284,7 @@ const Services = () => {
                             WhatsApp Us Now
                         </a>
                         <a
-                            href="tel:+919133933133"
+                            href="tel:+918790921442"
                             className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white/10 transition-all duration-300"
                         >
                             <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

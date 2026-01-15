@@ -17,7 +17,7 @@ const Contact = () => {
         e.preventDefault();
         // Create WhatsApp message
         const message = `Hi! I'm ${formData.name}.%0A%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0AScrap Type: ${formData.scrapType}%0A%0AMessage: ${formData.message}`;
-        window.open(`https://wa.me/919133933133?text=${message}`, '_blank');
+        window.open(`https://wa.me/918790921442?text=${message}`, '_blank');
     };
 
     const contactInfo = [
@@ -29,7 +29,7 @@ const Contact = () => {
             ),
             title: 'Phone',
             value: '+91 91339 33133',
-            link: 'tel:+919133933133',
+            link: 'tel:+918790921442',
             color: 'bg-blue-100 text-blue-600',
         },
         {
@@ -40,7 +40,7 @@ const Contact = () => {
             ),
             title: 'WhatsApp',
             value: '+91 91339 33133',
-            link: 'https://wa.me/919133933133',
+            link: 'https://wa.me/918790921442',
             color: 'bg-green-100 text-green-600',
         },
         {
@@ -271,7 +271,7 @@ const Contact = () => {
                                 </p>
                                 <div className="space-y-4">
                                     <a
-                                        href="https://wa.me/919133933133"
+                                        href="https://wa.me/918790921442"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-center w-full px-6 py-3 bg-white text-primary-700 font-semibold rounded-xl hover:shadow-lg transition-all"
@@ -282,7 +282,7 @@ const Contact = () => {
                                         Chat on WhatsApp
                                     </a>
                                     <a
-                                        href="tel:+919133933133"
+                                        href="tel:+918790921442"
                                         className="flex items-center w-full px-6 py-3 bg-white/10 border border-white/30 text-white font-semibold rounded-xl hover:bg-white/20 transition-all"
                                     >
                                         <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

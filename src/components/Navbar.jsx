@@ -61,7 +61,7 @@ const Navbar = () => {
                                 </Link>
                             ))}
                             <a
-                                href="https://wa.me/919133933133"
+                                href="https://wa.me/918790921442"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn-primary text-sm"
@@ -124,7 +124,7 @@ const Navbar = () => {
                                 </Link>
                             ))}
                             <a
-                                href="https://wa.me/919133933133"
+                                href="https://wa.me/918790921442"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center w-full btn-primary mt-3"
@@ -141,7 +141,7 @@ const Navbar = () => {
 
             {/* Floating WhatsApp Button */}
             <a
-                href="https://wa.me/919133933133"
+                href="https://wa.me/918790921442"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg whatsapp-btn hover:bg-green-600 transition-colors"

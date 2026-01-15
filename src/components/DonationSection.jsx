@@ -66,7 +66,7 @@ const DonationSection = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
-                                href="https://wa.me/919133933133?text=Hi! I would like to donate some items to help NGOs/orphanages."
+                                href="https://wa.me/918790921442?text=Hi! I would like to donate some items to help NGOs/orphanages."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center px-8 py-4 bg-rose-600 text-white font-semibold rounded-xl shadow-lg hover:bg-rose-700 hover:-translate-y-1 transition-all duration-300"

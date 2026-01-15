@@ -56,7 +56,7 @@ const About = () => {
                 </svg>
             ),
             title: 'Used Vehicles',
-            description: 'Cars, bikes, buses, autos, trucks & all types of vehicles including scrap vehicles',
+            description: 'We buy used and scrap vehicles - cars, bikes, scooty, bus, trucks, auto\'s etc',
         },
         {
             icon: (
@@ -233,7 +233,7 @@ const About = () => {
                                 an NGO run their operations. Every donation creates a ripple effect of positive change.
                             </p>
                             <a
-                                href="https://wa.me/919133933133?text=Hi! I would like to donate some items to help orphanages/NGOs."
+                                href="https://wa.me/918790921442?text=Hi! I would like to donate some items to help orphanages/NGOs."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center px-8 py-4 bg-rose-600 text-white font-semibold rounded-xl shadow-lg hover:bg-rose-700 hover:-translate-y-1 transition-all duration-300"
@@ -332,7 +332,7 @@ const About = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                                 <a
-                                    href="https://wa.me/919133933133"
+                                    href="https://wa.me/918790921442"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center px-8 py-4 bg-white text-primary-700 font-semibold rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
