@@ -16,7 +16,7 @@ const SupportersCarousel = () => {
             color: 'from-green-500 to-emerald-600',
         },
         {
-            name: 'Eco Recycle India',
+            name: 'Eco Reuse India',
             logo: null,
             initials: 'ERI',
             color: 'from-teal-500 to-cyan-600',

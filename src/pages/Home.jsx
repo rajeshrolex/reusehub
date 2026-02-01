@@ -24,11 +24,7 @@ const Home = () => {
             title: 'Support Orphanages & NGOs',
             subtitle: 'Donate items to support orphanages and NGOs instead of throwing things away—make a positive impact!',
         },
-        {
-            image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1920&q=80',
-            title: 'Sustainable Recycling',
-            subtitle: 'We are committed to promoting sustainable recycling practices through awareness, collection, and reuse initiatives. Our goal is to minimize waste, maximize resource recovery, and build an eco-conscious community',
-        },
+
     ];
 
     useEffect(() => {
@@ -188,7 +184,7 @@ const Home = () => {
                 </svg>
             ),
             title: 'Eco-Friendly',
-            description: 'Responsible recycling practices',
+            description: 'Responsible reuse practices',
         },
         {
             icon: (
@@ -224,7 +220,7 @@ const Home = () => {
                     <div className="container-custom text-center text-white">
                         <div className="animate-fade-in">
                             <span className="inline-block px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-6">
-                                ♻️ Sell | Buy | Charity | Recycle
+                                Buy | Sell | Charity
                             </span>
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                                 {heroSlides[currentSlide].title}
@@ -329,7 +325,7 @@ const Home = () => {
                         </span>
                         <h2 className="section-title">How It Works</h2>
                         <p className="section-subtitle">
-                            Three simple steps to sell, recycle or donate your items
+                            Three simple steps to sell or donate your items
                         </p>
                     </div>
 
@@ -371,7 +367,7 @@ const Home = () => {
                             Why Choose Us
                         </h2>
                         <p className="text-lg text-white/80 max-w-2xl mx-auto">
-                            We make selling and recycling convenient, rewarding, and eco-friendly
+                            We make selling and reusing convenient, rewarding, and eco-friendly
                         </p>
                     </div>
 

@@ -27,8 +27,8 @@ const Navbar = () => {
         <>
             <nav
                 className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                        ? 'bg-white shadow-lg py-2'
-                        : 'bg-white/95 backdrop-blur-md py-4'
+                    ? 'bg-white shadow-lg py-2'
+                    : 'bg-white/95 backdrop-blur-md py-4'
                     }`}
             >
                 <div className="container-custom">
@@ -36,7 +36,7 @@ const Navbar = () => {
                         {/* Logo */}
                         <Link to="/" className="flex items-center space-x-3 group">
                             <img
-                                src="/images/logo.png"
+                                src="/images/reusehub-logo.png"
                                 alt="ReUse-Hub Logo"
                                 className={`transition-all duration-300 ${isScrolled ? 'h-12' : 'h-14'
                                     }`}
@@ -50,8 +50,8 @@ const Navbar = () => {
                                     key={link.path}
                                     to={link.path}
                                     className={`relative font-medium transition-colors duration-200 ${isActive(link.path)
-                                            ? 'text-primary-600'
-                                            : 'text-gray-700 hover:text-primary-600'
+                                        ? 'text-primary-600'
+                                        : 'text-gray-700 hover:text-primary-600'
                                         }`}
                                 >
                                     {link.name}
@@ -116,8 +116,8 @@ const Navbar = () => {
                                     to={link.path}
                                     onClick={() => setIsOpen(false)}
                                     className={`block px-4 py-2 rounded-lg font-medium transition-colors ${isActive(link.path)
-                                            ? 'bg-primary-100 text-primary-700'
-                                            : 'text-gray-700 hover:bg-gray-100'
+                                        ? 'bg-primary-100 text-primary-700'
+                                        : 'text-gray-700 hover:bg-gray-100'
                                         }`}
                                 >
                                     {link.name}

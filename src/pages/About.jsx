@@ -19,7 +19,7 @@ const About = () => {
                 </svg>
             ),
             title: 'Environmental Care',
-            description: 'Every item we recycle contributes to a cleaner planet and sustainable future.',
+            description: 'Every item we reuse contributes to a cleaner planet and sustainable future.',
         },
         {
             icon: (
@@ -43,7 +43,7 @@ const About = () => {
 
     const stats = [
         { number: '5000+', label: 'Happy Customers' },
-        { number: '10000+', label: 'Items Recycled' },
+        { number: '10000+', label: 'Items Reused' },
         { number: '500+', label: 'Items Donated' },
         { number: '50+', label: 'Areas Covered' },
     ];
@@ -120,11 +120,11 @@ const About = () => {
                                 Our Story
                             </span>
                             <h2 className="section-title mb-6">
-                                Making Recycling <span className="gradient-text">Convenient & Rewarding</span>
+                                Making Reuse <span className="gradient-text">Convenient & Rewarding</span>
                             </h2>
                             <div className="space-y-4 text-gray-600 leading-relaxed">
                                 <p>
-                                    ReUse-Hub was founded with a simple mission: to make recycling as convenient
+                                    ReUse-Hub was founded with a simple mission: to make reuse as convenient
                                     and rewarding as possible for everyone in Hyderabad. We understand that
                                     disposing of old vehicles, IT equipment, and electrical items can be a hassle.
                                 </p>
@@ -172,7 +172,7 @@ const About = () => {
                 <div className="container-custom">
                     <div className="text-center mb-12">
                         <h2 className="section-title">What We Deal In</h2>
-                        <p className="section-subtitle">A wide range of used items we buy, sell, and recycle</p>
+                        <p className="section-subtitle">A wide range of used items we buy and sell</p>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                         {whatWeDo.map((item, index) => (
@@ -261,8 +261,8 @@ const About = () => {
                             <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
                             <p className="text-white/90 leading-relaxed">
                                 To provide Hyderabad with the most convenient, rewarding, and eco-friendly
-                                way to sell, buy, recycle, and donate pre-owned vehicles, IT assets, electrical
-                                items, and more. We aim to make recycling accessible to everyone while ensuring fair value.
+                                way to sell, buy, reuse, and donate pre-owned vehicles, IT assets, electrical
+                                items, and more. We aim to make reuse accessible to everyone while ensuring fair value.
                             </p>
                         </div>
                         <div className="bg-gradient-to-br from-accent/80 to-primary-500 rounded-3xl p-10 text-white">
@@ -275,7 +275,7 @@ const About = () => {
                             <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
                             <p className="text-white/90 leading-relaxed">
                                 To create a zero-waste community where every item finds a new purpose.
-                                We envision a future where reusing and recycling is the norm, reducing
+                                We envision a future where reusing is the norm, reducing
                                 landfill waste and preserving our planet for future generations.
                             </p>
                         </div>

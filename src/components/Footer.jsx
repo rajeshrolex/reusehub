@@ -41,7 +41,7 @@ const Footer = () => {
                     <div className="lg:col-span-1">
                         <Link to="/" className="flex items-center space-x-3 mb-6">
                             <img
-                                src="/images/logo.png"
+                                src="/images/reusehub-logo.png"
                                 alt="ReUse-Hub"
                                 className="h-14 bg-white rounded-lg p-1"
                             />
@@ -228,7 +228,7 @@ const Footer = () => {
                             © {currentYear} ReUse-Hub. All rights reserved.
                         </p>
                         <p className="text-gray-500 text-sm mt-2 md:mt-0">
-                            Sell | Buy | Charity | Recycle ♻️
+                            Buy | Sell | Charity
                         </p>
                     </div>
                 </div>
