@@ -279,7 +279,7 @@ const Home = () => {
                         </span>
                         <h2 className="section-title">What We Buy & Sell</h2>
                         <p className="section-subtitle">
-                            From vehicles to IT assets, factory outlet and petande — we handle it all
+                            We Handle Everything from Used Vehicles, Appliances & IT Assets to Full Warehouse Clearance.
                         </p>
                     </div>
 
