@@ -36,7 +36,7 @@ const Navbar = () => {
                         {/* Logo */}
                         <Link to="/" className="flex items-center space-x-3 group">
                             <img
-                                src="/images/reusehub-logo.png"
+                                src="/images/reusehub-logo.png?v=2"
                                 alt="ReUse-Hub Logo"
                                 className={`transition-all duration-300 ${isScrolled ? 'h-12' : 'h-14'
                                     }`}

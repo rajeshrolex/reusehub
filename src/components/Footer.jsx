@@ -41,7 +41,7 @@ const Footer = () => {
                     <div className="lg:col-span-1">
                         <Link to="/" className="flex items-center space-x-3 mb-6">
                             <img
-                                src="/images/reusehub-logo.png"
+                                src="/images/reusehub-logo.png?v=2"
                                 alt="ReUse-Hub"
                                 className="h-14 bg-white rounded-lg p-1"
                             />
